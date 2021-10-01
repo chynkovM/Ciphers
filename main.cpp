@@ -10,7 +10,6 @@ char Alphabet[] { ' ', 'à', 'á', 'â', 'ã', '´', 'ä', 'å', 'º', 'æ', 'ç', 'è', '³
 
 std::string Code(char* s, int n, const int SIZE)
 {
-	std::cout << sizeof(s)<< std::endl;
 	std::string res;
 	for (int i = 0; i < SIZE; ++i)
 		for (int j = 0; j < sizeof(Alphabet); j++)
